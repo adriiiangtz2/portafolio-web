@@ -1,0 +1,69 @@
+:root {
+    --colo1: rgba(47, 97, 60, 0.232);
+    --color2: #0505053a;
+    --color3: rgba(78, 25, 25, 0.15);
+    --fondo: #f2f2f2;
+    --menu: #bdbdbda4;
+    --titulo: 33px;
+    --margenes: 60px;
+    --espacios: 10px;
+    --espacios-contenidos: 45px;
+}
+/*##################3##### CONTENEDOR TRABAJOS ################# */
+.botones-work {
+    overflow: hidden;
+}
+.botones-work li {
+    display: inline-block;
+    text-align: center;
+    margin-left: var(--espacios);
+    margin-bottom: var(--espacios-contenidos);
+    padding: 6px;
+    border: 1px solid rgba(47, 138, 47, 0.787);
+    color: green;
+}
+.botones-work li:hover {
+    background-color: black;
+    color: blanchedalmond;
+    cursor: pointer;
+}
+.botones-work .active {
+    background-color: black;
+    color: blanchedalmond;
+    cursor: pointer;
+} 
+.galeria-work {
+    border: 1px solid black;
+    height: auto;
+    /* agarre todo el espacio */
+    display:flex;
+    /* se bajen las cards */
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.galeria-work .cont-work {
+    width: 300px;
+    margin: 10px  ;
+    height: 300px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.52);
+    height: 300px;
+    overflow: hidden;
+    margin-bottom: var(--espacios-contenidos);
+    border: 5px solid black;
+}
+.img-work {
+    height: 90%;
+    width: 100%;
+}
+.img-work img {
+    height: 100%;
+    width: 100%;
+    /* para que no e sten apretadar las imagenes */
+    object-fit: cover;
+}
+.textos-work {
+    height: 10%;
+}
+.textos-work h4 {
+    line-height: 30px;
+}

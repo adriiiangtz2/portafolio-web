@@ -1,0 +1,193 @@
+.menu1{
+    font-family: 'Source Code Pro', monospace;
+    justify-content: end !important;
+}
+.fuentep{
+    font-family: 'Source Code Pro', monospace;
+    text-align: right;
+    font-weight: bold;
+}
+a{
+    color: aqua;
+}
+p{
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 400;
+font-size: 14px;
+text-align: justify;
+}
+h2{
+    font-family: 'Source Code Pro', monospace; 
+    color: rgb(5, 218, 218);
+}
+.contenedor-top{
+    background: linear-gradient(
+      /* la direccion del degradado */ to right,
+      /* todaliades q dece uno */ rgba(1, 12, 5, 0.438),
+    var(--color2),
+    var(--color3)
+    ),
+    url(/img/Encabezado/teclado.jpg);
+    background-attachment: fixed;
+  /* se quede en el centro */
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    width: 95%;
+    object-fit: cover;
+    position: relative;
+    border-bottom: 3px solid rgb(5, 218, 218);
+}
+.contenedor-central{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    /* border: 1px solid black; */
+    justify-content: center;
+    height: 480px;
+    width: 100%;
+    margin-top: 100px;
+}
+b{
+    color: rgb(5, 218, 218);
+}
+.foto-perfil{
+    clip-path: circle(50% at 50% 50%);
+}
+.infos{
+    flex-basis: 40%;
+    min-width: 300px;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 900;
+    color: aqua;
+}
+.fondo-principal{
+background-image: url(/img/Encabezado/fondo.jpg) !important;
+/* background-image: linear-gradient(
+    rgba(87, 21, 21, 0.561),
+  rgba(42, 39, 39, 0.5)), url(/img/Encabezado/fondo.jpg); */
+  /* background: linear-gradient(
+    to right,
+     rgb(2, 24, 10),
+    var(--color2),
+    var(--color3)
+  ),
+  url(/img/Encabezado/fondo.jpg); */
+background-size: cover !important;
+background-attachment: fixed !important;
+
+}
+.contenedor-info{
+    position: relative;
+    max-width: 100%;
+    text-align: center;
+}
+.contenedor-info:hover{
+    transition: 500ms;
+}
+.contenedor-anima{
+    position: absolute;
+    right: 0;
+    height: 100%;
+    background: #151313;
+    top: 0;
+    width: 5%;
+    transition: 900ms;
+    border-bottom: 3px solid rgb(5, 218, 218);
+}
+.contenedor-informacion-principal:hover .contenedor-anima  {
+    width: 20%;
+    background: #151313;
+    transition: 1000ms;
+    border-left: 2px solid rgb(5, 218, 218);;
+}
+.contenedor-secundario{
+    /* box-shadow: 0 0 1rem 0 rgba(0,0,0,0.2) !important; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+} 
+.info-personal{
+    background: #151313;
+    padding: 50px;
+    justify-content: center;
+    display: flex;
+    border-bottom: 3px solid rgb(5, 218, 218);
+
+} 
+.contendor-personal{
+    background-color: white;
+    padding: 30px;
+    width: 70%;
+}
+.sobremi{
+    padding: 10px;
+    text-align: justify;
+    transition: 500ms;
+}
+.sobremi:hover,
+.datos-mi:hover{
+    background: #000000 !important;
+    color: white;
+    border-radius: 5px;
+
+}
+.sobremi > h3{
+    text-align: center;
+    /* font-family: 'Merriweather', serif; */
+    text-transform: uppercase;
+    padding: 5px;
+    border-bottom: 2px solid black;
+}
+.sobremi:hover h3,
+.datos-mi:hover h3{
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+.sobremi > p{
+    /* font-family: 'Merriweather', serif; */
+    text-align: center;
+}
+.datos-mi{
+    padding: 10px;
+    text-align: justify;
+    justify-content: center;
+    transition: 500ms;
+    
+}
+.datos-mi > h3{
+    text-align: center;
+    /* font-family: 'Merriweather', serif; */
+    text-transform: uppercase;
+    padding: 5px;
+    border-bottom: 2px solid black;
+}
+.datos-mi > p{
+    /* font-family: 'Merriweather', serif; */
+    text-align: center;
+}
+
+
+.iconos{
+    font-size: 55px;
+    text-align: center;
+    
+}
+.info-icon > p{
+    text-align: center;
+}
+.contenedor-skills-titulo,
+.contenedor-proyectos-titulo{
+    text-align: center; ;width: 100%;background: #151313; border-bottom:2px solid rgb(5, 218, 218);
+}
+.conteiner-skills{
+    border:3px dashed rgb(5, 218, 218);    
+    height: 200px;
+    transition: 500ms;
+    border-radius: 4px;
+}
+.conteiner-skills:hover{
+    background: #151313;
+    color: whitesmoke;
+    border:3px solid rgb(5, 218, 218);   
+}
